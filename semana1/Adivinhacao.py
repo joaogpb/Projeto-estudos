@@ -1,7 +1,6 @@
 #jogo de advinhação
 import random
 def jogar():
-
     print("*********************************")
     print("Bem vindo ao jogo de adivinhação!")
     print("*********************************")
@@ -46,11 +45,8 @@ def jogar():
                 print("Seu chute foi menor que o número secreto.")
             pontos_perdidos = abs(numero_secreto - chute)
             pontos -= pontos_perdidos
-
     print("Fim do jogo!")
-    print(f"O número secreto era {numero_secreto}.")
 if __name__ == "__main__":
     jogar()
-
 #jogo de adivinhação
-# Este é um jogo simples onde o usuário tenta adivinhar um número secreto entre 1 e 100.
+# Este é um jogo simples onde o usuário tenta adivinhar um número secreto entre 1 e 100.t
