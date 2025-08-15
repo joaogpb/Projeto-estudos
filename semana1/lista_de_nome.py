@@ -30,28 +30,7 @@ def verificar_ordem(lista_palavras):
             print(f"'{palavra}'")
 
 # Exemplo de uso:
-palavras = ['Garuda',
-'Revenant',
-'mag',
-'Gyre',
-'hydroid',
-'Baruck',
-'Oberon',
-'Loki',
-'Gauss',
-'Proteia',
-'Titania',
-'Nova',
-'Sevagoth',
-'Citrine',
-'Lavos',
-'Styanax',
-'Nidus',
-'Qorvex',
-'Hildrin',
-'Kullervo',
-'Caliban',
-'Xaku'
+palavras = ['Garuda','Revenant','mag','Gyre','hydroid','Baruck','Oberon','Loki','Gauss','Proteia','Titania','Nova','Sevagoth','Citrine','Lavos','Styanax','Nidus','Qorvex','Hildrin','Kullervo','Caliban','Xaku'
 ]
 verificar_ordem(palavras)
 palavras_ordenadas = ordenar_palavras(palavras)
